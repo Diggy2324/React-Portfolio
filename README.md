@@ -111,7 +111,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
--   **Your Name:** Dylan White
--   **Email:** jacob.dwhite23@gmail.com
--   **LinkedIn:** [Your LinkedIn Profile URL]
--   **GitHub:** www.github.com/Diggy2324
+-    Dylan White
+-    jacob.dwhite23@gmail.com
+-    [Your LinkedIn Profile URL]
+-    www.github.com/Diggy2324
