@@ -1,7 +1,5 @@
-// Project.jsx
 import React from 'react';
 import styled from 'styled-components';
-import Project from './project'; // Import Project component
 
 const ProjectContainer = styled.div`
   border: 1px solid #ddd;

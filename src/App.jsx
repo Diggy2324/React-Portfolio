@@ -1,37 +1,29 @@
 import React, { StrictMode } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { createRoot } from 'react-dom/client';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
-import Resume from './pages/Resume';
-import AboutMe from './pages/AboutMe';
-import Contact from './pages/Contact';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'; // Import Navigate
+import Header from './components/header';
+import Footer from './components/footer';
+import Portfolio from './pages/portfolio';
+import Resume from './pages/resume';
+import AboutMe from './pages/aboutme';
+import Contact from './pages/contact';
+import './pages/CSS/App.css';
+import Home from './pages/home';
 
 function App() {
   return (
-    <><Router>
-      <Header />
-      <Navigation />
-      <Routes>
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/project" element={<Project />} />
-      </Routes>
+    <Router>
+      <>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/project" element={<Portfolio />} />
+        </Routes>
+        <Footer />
+      </>
     </Router>
-    <Footer /></>
-  );
-}
-
-const rootElement = document.getElementById('root');
-if (rootElement) {
-  createRoot(rootElement).render(
-    <StrictMode>
-      <App />
-    </StrictMode>
   );
 }
 

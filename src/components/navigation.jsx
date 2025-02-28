@@ -1,8 +1,6 @@
-// Navigation.jsx
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import Navigation from './navigation'; // Import Navigation component
 
 const Nav = styled.nav`
   ul {
@@ -23,25 +21,30 @@ const Nav = styled.nav`
     transition: color 0.3s ease;
 
     &.active {
-      font-weight: 700; /* Highlight active link */
+      font-weight: 700;
       text-decoration: underline;
     }
 
     &:hover {
-      color: #b3c2f2;
+      color:rgb(255, 255, 255);
     }
   }
 `;
 
 function Navigation() {
-  const location = useLocation(); // Get current location
+  const location = useLocation();
 
   return (
     <Nav>
       <ul>
         <li>
-          <Link to="/about me" className={location.pathname === '/about me' ? 'active' : ''}>
+          <Link to="/home" className={location.pathname === '/home' ? 'active' : ''}>
             Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
+            About Me
           </Link>
         </li>
         <li>
@@ -50,7 +53,7 @@ function Navigation() {
           </Link>
         </li>
         <li>
-          <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>
+          <Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}>
             Portfolio
           </Link>
         </li>

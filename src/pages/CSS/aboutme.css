@@ -1,0 +1,57 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background: url('https://storage.ko-fi.com/cdn/useruploads/display/ece544e7-dce6-4115-9e81-0640ab684032_20241001104905_1.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-me-content {
+    background: linear-gradient(135deg, #0e7a04, rgb(229, 238, 221)); /* Gradient background */
+    max-width: 800px;
+    width: 100%;
+    background-color: #05f8877c;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(1, 138, 53, 0.966);
+  }
+  
+  .about-me-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #050000;
+    padding-bottom: 1rem;
+  }
+  
+  .about-me-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #030000;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .about-me-content {
+      padding: 2rem;
+    }
+  
+    .about-me-title {
+      font-size: 2rem;
+    }
+  
+    .about-me-paragraph {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+      .about-me {
+          padding: 2rem 1rem;
+      }
+  }

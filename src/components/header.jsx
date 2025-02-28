@@ -4,14 +4,12 @@ import styled from 'styled-components';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const HeaderContainer = styled.header`
-  background: linear-gradient(135deg, #1a2a6c, #2a438a); /* Gradient background */
   color: #fff;
   padding: 1.5rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-`;
+}`;
 
 const Logo = styled(Link)`
   font-size: 1.8rem;
@@ -44,7 +42,7 @@ const Nav = styled.nav`
     transition: color 0.3s ease;
 
     &:hover {
-      color: #b3c2f2;
+      color:rgb(0, 255, 255);
     }
   }
 `;
@@ -52,17 +50,19 @@ const Nav = styled.nav`
 function Header() {
   return (
     <HeaderContainer>
-      <Logo to="/">MyLogo</Logo>
       <Nav>
         <ul>
           <li>
-            <Link to="/about-me">About Me</Link>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About Me</Link>
           </li>
           <li>
             <Link to="/resume">Resume</Link>
           </li>
           <li>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/project">Project</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
