@@ -7,21 +7,13 @@ html {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333333;
-  background-color: #ec0303;
+  background-color: #000000;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-header {
-  background-color: #ff0800;
-  color: #f00505;
-  padding: 1rem 0;
-  text-align: center;
 }
 
 header h1 {
@@ -39,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #f80303;
+  color: #080000;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -52,7 +44,7 @@ nav ul li a:hover {
 
 .hero {
   background: linear-gradient(135deg, #f01303, #f11303);
-  color: #f50a0a;
+  color: #080101;
   text-align: center;
   padding: 5rem 0;
 }
@@ -69,8 +61,8 @@ nav ul li a:hover {
 
 .btn {
   display: inline-block;
-  background-color: #f10808;
-  color: #ff2600;
+  background-color: #0e0202;
+  color: #070201;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 5px;
@@ -79,14 +71,14 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-  background-color: #e60303;
+  background-color: #000000;
   color: #df4609;
 }
 
 .about {
   padding: 4rem 0;
   text-align: center;
-  background-color: #eb0b0b;
+  background-color: #000000;
 }
 
 .about h2 {
@@ -101,7 +93,7 @@ nav ul li a:hover {
 
 .portfolio {
   padding: 4rem 0;
-  background-color: #cf1111;
+  background-color: #11e44642;
   text-align: center;
 }
 
@@ -117,7 +109,7 @@ nav ul li a:hover {
 }
 
 .portfolio-item {
-  background-color: #be0303;
+  background-color: #000000;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -144,12 +136,12 @@ nav ul li a:hover {
 
 .project-link {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .contact{ 
   padding: 4rem 0;
-  background-color: #000305;
+  background-color: #000000;
   text-align: center;
 }
 
@@ -174,27 +166,24 @@ nav ul li a:hover {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid #c40f0f;
+  border: 1px solid #080000;
   border-radius: 5px;
 }
 
 .contact-form button {
-  background-color: #4bc405;
-  color: #4aec0a;
   padding: 1rem 2rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .contact-form button:hover {
-  background-color: #010007;
+  background-color: #000000;
 }
 
 footer {
-  background-color: #6ee60c;
-  color: #7bdb0d;
+  background-color: #000000;
+  color: #070c00;
   text-align: center;
   padding: 1rem 0;
 }

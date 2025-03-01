@@ -3,7 +3,8 @@
     margin: 0 auto;
     padding: 20px;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: #b3ff00;
+    background-color: #0000005d;
   }
   
   h1, h2 {
@@ -18,7 +19,7 @@
   
   a {
     text-decoration: none;
-    color: #007bff;
+    color: #000000;
   }
   
   a:hover {
@@ -26,7 +27,7 @@
   }
   
   .hero {
-    background-color: #f8f9fa; 
+    background-color: #ffff00; 
     text-align: center;
     padding: 80px 20px;
     border-radius: 8px;
@@ -35,19 +36,19 @@
   .hero h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #2c3e50;
+    color: #000000;
   }
   
   .hero p {
     font-size: 1.1em;
-    color: #555;
+    color: #000000;
     max-width: 600px;
     margin: 0 auto 30px;
   }
   
   .cta-button {
-    background-color: #007bff;
-    color: white;
+    background-color: #000000;
+    color: rgb(166, 255, 0);
     padding: 12px 30px;
     border: none;
     border-radius: 5px;
@@ -57,7 +58,7 @@
   }
   
   .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
   }
   
   .featured-section {
@@ -71,7 +72,7 @@
   }
   
   .featured-item {
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -79,7 +80,7 @@
   
   .featured-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(255, 238, 0);
   }
   
   .featured-image {
@@ -100,8 +101,8 @@
   
   .read-more {
     display: inline-block;
-    background-color: #007bff;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 5px;
     margin: 15px;
@@ -109,20 +110,13 @@
   }
   
   .read-more:hover {
-    background-color: #0056b3;
-  }
-  
-  .about-section, .contact-section {
-    padding: 50px 20px;
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    margin-top: 30px;
+    background-color: #91ff00;
   }
   
   .learn-more, .contact-link {
     display: inline-block;
-    background-color: #28a745; 
-    color: white;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
     padding: 12px 30px;
     border-radius: 5px;
     margin-top: 20px;
@@ -130,7 +124,7 @@
   }
   
   .learn-more:hover, .contact-link:hover {
-    background-color: #218838;
+    background-color: #00ff37;
   }
   
   @media (max-width: 768px) {

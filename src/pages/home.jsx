@@ -16,30 +16,24 @@ const Home = () => {
         <h2>Featured Highlights</h2>
         <div className="featured-items">
           <article className="featured-item">
-            <img src="/images/feature1.jpg" alt="Feature 1" className="featured-image" />
-            <h3>Feature 1 Title</h3>
-            <p>Brief description of Feature 1.</p>
-            <a href="/feature1" className="read-more">Read More</a>
+            <h3>Project-Trippit</h3>
+            <a href="https://github.com/abelgtzrs/Project-Trippit.git" className="read-more">Read More</a>
           </article>
 
           <article className="featured-item">
-            <img src="/images/feature2.jpg" alt="Feature 2" className="featured-image" />
-            <h3>Feature 2 Title</h3>
-            <p>Brief description of Feature 2.</p>
-            <a href="/feature2" className="read-more">Read More</a>
+            <h3>SQL Challenge</h3>
+            <a href="https://github.com/Diggy2324/SQL-Challenge.git" className="read-more">Read More</a>
           </article>
 
           <article className="featured-item">
-            <img src="/images/feature3.jpg" alt="Feature 3" className="featured-image" />
-            <h3>Feature 3 Title</h3>
-            <p>Brief description of Feature 3.</p>
-            <a href="/feature3" className="read-more">Read More</a>
+            <h3>React-Portfolio</h3>
+            <a href="https://github.com/Diggy2324/React-Portfolio.git" className="read-more">Read More</a>
           </article>
         </div>
       </section>
 
       <section className="about-section">
-        <h2>About Me/Us</h2>
+        <h2>About Me</h2>
         <p>
           Here, you'll find information about who I am and what drives me.
         </p>
@@ -48,7 +42,7 @@ const Home = () => {
       <section className="contact-section">
         <h2>Contact</h2>
         <p>Feel free to reach out with any questions or inquiries.</p>
-        <a href="/contact" className="contact-link">Contact Us</a>
+        <a href="/contact" className="contact-link">Contact Me</a>
       </section>
     </main>
   );
