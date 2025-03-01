@@ -1,35 +1,16 @@
-## Table of Contents
-
-
-
-- [About](#about)
-
-- [Features](#features)
-
-- [Technologies Used](#technologies-used)
-
-- [Getting Started](#getting-started)
-
-- [Prerequisites](#prerequisites)
-
-- [Installation](#installation)
-
-- [Running the Application](#running-the-application)
-
-- [Deployment](#deployment)
-
-- [Contributing](#contributing)
-
-- [License](#license)
-
-- [Contact](#contact)
-
-
-
-## About
-
-
-
+Table of Contents
+About
+Features
+Technologies Used
+Getting Started
+Prerequisites
+Installation
+Running the Application
+Deployment
+Contributing
+License
+Contact
+About
 This portfolio serves as a centralized hub for my professional online presence. It's designed to provide visitors with a clear and engaging overview of my capabilities, past work, and contact information. The portfolio is built with modern web development practices and emphasizes a clean, responsive design.
 
 
@@ -192,16 +173,8 @@ Contributions are welcome! If you have any suggestions or find any issues, pleas
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-
-## Contact
-
-
-
-- Dylan White
-
-- jacob.dwhite23@gmail.com
-
-- [Your LinkedIn Profile URL]
-
-- www.github.com/Diggy2324 
+Contact
+Dylan White
+jacob.dwhite23@gmail.com
+[Your LinkedIn Profile URL]
+www.github.com/Diggy2324
