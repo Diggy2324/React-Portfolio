@@ -1,20 +1,18 @@
 import React from 'react';
-import './Contact.css'; // Optional: Create a separate CSS file for styling
+import './CSS/contact.css';
 
 const Contact = () => {
   return (
     <section className="contact">
       <div className="contact-content">
-        <h2 className="contact-title">Contact Dylan White</h2>
 
         <div className="contact-details">
           <p><strong>Name:</strong> Dylan White</p>
           <p><strong>Phone:</strong> 802.296.1394</p>
           <p><strong>Email:</strong> jacob.dwhite23@gmail.com</p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/Diggy2324" target="_blank" rel="noopener noreferrer">Diggy2324</a></p>
-          <p><strong>LinkedIn:</strong> <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer">YOUR_LINKEDIN_URL</a></p> {/* Replace with your actual LinkedIn URL */}
-          <p><strong>Discord:</strong> YOUR_DISCORD_USERNAME#YOUR_DISCORD_TAG</p> {/* Replace with your Discord username and tag */}
-          {/* Add more contact methods as needed */}
+          <p><strong>GitHub:</strong> <a href="https://github.com/Diggy2324" target="_blank" rel="noopener noreferrer"></a></p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dylan-white-2571381a5/" target="_blank" rel="noopener noreferrer"></a></p>
+          <p><strong>Discord:</strong> <a href="https://discord.com/channels/@me/1101682962078122065/" target="_blank" rel="noopener norefferer"></a> </p>
         </div>
 
         <div className="contact-form">

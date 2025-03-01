@@ -1,11 +1,11 @@
 import React from 'react';
-import './Resume.css'; // Optional: Create a separate CSS file for styling
+import './CSS/resume.css';
 
 const Resume = () => {
   return (
     <section className="resume">
       <div className="resume-content">
-        <h2 className="resume-title">Dylan White - Resume</h2>
+        <h1 className="resume-title">Resume</h1>
 
         <div className="resume-section">
           <h3>Summary</h3>
@@ -16,21 +16,20 @@ const Resume = () => {
 
         <div className="resume-section">
           <h3>Skills</h3>
-          <ul className="skills-list">
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>HTML-Git-CSS</li>
-            <li>Advanced-CSS</li>
-            <li>Web APIs</li>
-            <li>Typescript-OOP</li>
-            <li>SQL</li>
-            <li>Prompt-Engineering</li>
-            <li>Full-Stack-React</li>
-            <li>Database Management (MongoDB)</li>
-            <li>Problem Solving</li>
-            <li>Team Collaboration</li>
-          </ul>
+          <ol>JavaScript</ol>
+          <ol>React</ol>
+          <ol>Node.js</ol>
+          <ol>HTML-Git-CSS</ol>
+          <ol>Advanced-CSS</ol>
+          <ol>Servers-APIs</ol>
+          <ol>Typescript-OOP</ol>
+          <ol>SQL</ol>
+          <ol>Prompt-Engineering</ol>
+          <ol>Full-Stack-React</ol>
+          <ol>Database Management</ol>
+          <ol>Problem Solving</ol>
+          <ol>Team Collaboration</ol>
+          
         </div>
 
         <div className="resume-section">
@@ -56,24 +55,17 @@ const Resume = () => {
           <div className="education-item">
             <h4>N/A</h4>
             <p className="education-dates">Currently attending</p>
-            <p>[UNH Coding Bootcamp]</p>
+            <p>UNH Coding Bootcamp</p>
           </div>
           <div className="education-item">
-            <h4>[High School Diploma]</h4>
-            <p className="education-dates">[2011]</p>
-            <p>[Hartford High School]</p>
+            <h4>High School Diploma</h4>
+            <p className="education-dates">2011</p>
+            <p>Hartford High School</p>
           </div>
-        </div>
-
-        <div className="resume-section">
-          <h3>Contact</h3>
-          <p>Email: Jacob.dwhite23@gmail.com</p>
-          <p>LinkedIn: linkedin.com/in/yourprofile</p>
-          <p>GitHub: github.com/Diggy2324</p>
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default Resume;

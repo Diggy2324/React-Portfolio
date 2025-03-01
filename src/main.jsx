@@ -1,5 +1,5 @@
 import React, { StrictMode } from 'react'; // Import StrictMode
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import App from './App'; // Import the App component
 import { createRoot } from 'react-dom/client'; // Correct import for createRoot
 
 const rootElement = document.getElementById('root');

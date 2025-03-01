@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.resume-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.header p {
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.section ul, .section ol {
+    padding-left: 20px;
+}
+
+.section li {
+    margin-bottom: 8px;
+}
+
+.section strong {
+    font-weight: bold;
+    color: #000000;
+}
+
+.experience-item, .education-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3, .education-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.experience-item p, .education-item p {
+    color: #000000;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #000000;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    .resume-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .section h2 {
+        font-size: 1.5em;
+    }
+}
+
+.skill:hover {
+    background-color: #030101;
+}
